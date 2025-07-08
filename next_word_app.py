@@ -22,7 +22,7 @@ st.markdown(
 #st.markdown("<p style='color:green;'>Enter a sequence of words, and the model will predict the next word.</p>", unsafe_allow_html=True)
 
 st.title("Next Word Predictor (LSTM)")
-st.write("Enter a sequence of words, and the model will predict the next word.")
+st.write("Enter a sequence of words, and the model will predict the next word. Input a full stop to stop and display the sentence.")
 
 #Load tokenizer and model
 with open('next_word_prediction_tokens0.pkl', 'rb') as f:
